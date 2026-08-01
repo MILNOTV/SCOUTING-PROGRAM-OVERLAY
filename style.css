@@ -144,7 +144,7 @@ body {
   min-width: 100%;
   height: 100%;
   align-items: center;
-  animation: tickerMove 44s linear infinite;
+  animation: tickerMove 70s linear infinite;
   will-change: transform;
 }
 
