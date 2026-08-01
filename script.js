@@ -1,6 +1,7 @@
 const CONFIG = {
+const CONFIG = {
   spreadsheetId: "1r5FQ3I-JtViV06_aX6hbYW5ZYZGayIKurYp1QtLchzw",
-  sheetGid: "sheetGid: "1974066505",
+  sheetGid: "1974066505",
   refreshEveryMs: 5000
 };
 
