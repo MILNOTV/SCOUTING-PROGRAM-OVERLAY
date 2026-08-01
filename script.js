@@ -20,13 +20,6 @@ async function loadOverlayData() {
 }
 
 function renderScoreboard(data) {
-  document.getElementById("awayTeam").textContent = data.game.awayTeam;
-  document.getElementById("awayScore").textContent = data.game.awayScore;
-  document.getElementById("homeTeam").textContent = data.game.homeTeam;
-  document.getElementById("homeScore").textContent = data.game.homeScore;
-  document.getElementById("inning").textContent = data.game.inning;
-  document.getElementById("half").textContent = data.game.half;
-
   document.getElementById("currentName").textContent = data.currentHitter.name;
   document.getElementById("currentAvg").textContent = data.currentHitter.avg;
   document.getElementById("currentHits").textContent = data.currentHitter.hits;
