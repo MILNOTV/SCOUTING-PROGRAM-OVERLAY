@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Scouting Program Overlay</title>
+  <title>Scouting Program Ticker</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main class="overlay-shell">
-    <section class="scorebug">
+  <main class="overlay">
+    <section class="current-panel">
       <div class="brand">
         <span class="brand-dot"></span>
         <div>
@@ -17,21 +17,27 @@
         </div>
       </div>
 
-      <div class="current-hitter" style="grid-column:2 / span 2;">
+      <div class="current-hitter">
         <small>BATEADOR ACTUAL</small>
-        <strong id="currentName">Freddie Freeman</strong>
+        <strong id="currentName">Esperando datos…</strong>
         <span>
-          AVG <b id="currentAvg">.333</b>
-          · H <b id="currentHits">1</b>
-          · PTS <b id="currentPoints">8.5</b>
+          AVG <b id="currentAvg">---</b>
+          <i>•</i>
+          H <b id="currentHits">0</b>
+          <i>•</i>
+          PTS <b id="currentPoints">0</b>
         </span>
       </div>
+
+      <div id="status" class="status">CONECTANDO</div>
     </section>
 
     <section class="ticker-frame">
       <div class="ticker-label">LINEUP</div>
       <div class="ticker-window">
-        <div id="tickerTrack" class="ticker-track"></div>
+        <div id="tickerTrack" class="ticker-track">
+          <div class="ticker-message">Esperando jugadores de Google Sheets…</div>
+        </div>
       </div>
     </section>
   </main>
