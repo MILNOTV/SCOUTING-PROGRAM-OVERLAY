@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scouting Program Overlay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="overlay-shell">
+    <section class="scorebug">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <div>
+          <strong>SCOUTING PROGRAM</strong>
+          <small>MILNO TV · REDSTARS</small>
+        </div>
+      </div>
+
+      <div class="score">
+        <div class="team">
+          <span id="awayTeam">RIVAL</span>
+          <strong id="awayScore">0</strong>
+        </div>
+        <div class="game-state">
+          <span id="inning">1.º</span>
+          <span id="half">ALTA</span>
+        </div>
+        <div class="team home">
+          <strong id="homeScore">0</strong>
+          <span id="homeTeam">REDSTARS</span>
+        </div>
+      </div>
+
+      <div class="current-hitter">
+        <small>BATEADOR ACTUAL</small>
+        <strong id="currentName">Freddie Freeman</strong>
+        <span>
+          AVG <b id="currentAvg">.333</b>
+          · H <b id="currentHits">1</b>
+          · PTS <b id="currentPoints">8.5</b>
+        </span>
+      </div>
+    </section>
+
+    <section class="ticker-frame">
+      <div class="ticker-label">LINEUP</div>
+      <div class="ticker-window">
+        <div id="tickerTrack" class="ticker-track"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

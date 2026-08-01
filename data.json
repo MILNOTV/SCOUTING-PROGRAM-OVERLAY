@@ -1,0 +1,81 @@
+{
+  "game": {
+    "awayTeam": "RIVAL",
+    "awayScore": 0,
+    "homeTeam": "REDSTARS",
+    "homeScore": 0,
+    "inning": "1.º",
+    "half": "ALTA"
+  },
+  "currentHitter": {
+    "name": "Freddie Freeman",
+    "avg": ".333",
+    "hits": 1,
+    "points": 8.5
+  },
+  "lineup": [
+    {
+      "order": 1,
+      "name": "Ozzie Smith",
+      "avg": ".286",
+      "hits": 2,
+      "points": 7.0
+    },
+    {
+      "order": 2,
+      "name": "Freddie Freeman",
+      "avg": ".333",
+      "hits": 3,
+      "points": 8.5
+    },
+    {
+      "order": 3,
+      "name": "Cody Bellinger",
+      "avg": ".250",
+      "hits": 2,
+      "points": 6.0
+    },
+    {
+      "order": 4,
+      "name": "Rafael Devers",
+      "avg": ".300",
+      "hits": 3,
+      "points": 7.5
+    },
+    {
+      "order": 5,
+      "name": "Adley Rutschman",
+      "avg": ".200",
+      "hits": 1,
+      "points": 3.0
+    },
+    {
+      "order": 6,
+      "name": "Ryne Sandberg",
+      "avg": ".182",
+      "hits": 2,
+      "points": 2.5
+    },
+    {
+      "order": 7,
+      "name": "Justin Dean",
+      "avg": ".222",
+      "hits": 2,
+      "points": 4.0
+    },
+    {
+      "order": 8,
+      "name": "Mookie Betts",
+      "avg": ".273",
+      "hits": 3,
+      "points": 6.5
+    },
+    {
+      "order": 9,
+      "name": "Ken Griffey Jr.",
+      "avg": ".250",
+      "hits": 2,
+      "points": 5.5
+    }
+  ]
+}
