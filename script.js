@@ -114,7 +114,7 @@ function renderTicker(players) {
   const track = document.getElementById("tickerTrack");
 
   if (!players.length) {
-    track.innerHTML = '<div class="ticker-message">Agrega los jugadores en la hoja TICKER.</div>';
+    track.innerHTML = '<div class="ticker-message">Agrega los jugadores en la hoja LIVE.</div>';
     return;
   }
 
