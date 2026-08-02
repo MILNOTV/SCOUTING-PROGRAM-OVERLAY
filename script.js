@@ -4,7 +4,7 @@ const CONFIG = {
   refreshEveryMs: 5000
 };
 function csvUrl() {
-  return `https://docs.google.com/spreadsheets/d/${CONFIG.spreadsheetId}/gviz/tq?tqx=out:csv&gid=${CONFIG.sheetGid}&t=${Date.now()}`;
+  return `https://docs.google.com/spreadsheets/d/${CONFIG.spreadsheetId}/gviz/tq?tqx=out:csv&gid=${CONFIG.sheetGid}&range=A1:J10&headers=1&t=${Date.now()}`;
 }
 
 function parseCsv(text) {
