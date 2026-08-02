@@ -3,7 +3,7 @@ const CONFIG = {
   sheetGid: "1974066505",
   refreshEveryMs: 5000
 };
-
+document.getElementById("status").textContent = "SCRIPT OK";
 function csvUrl() {
   return `https://docs.google.com/spreadsheets/d/${CONFIG.spreadsheetId}/gviz/tq?tqx=out:csv&gid=${CONFIG.sheetGid}&t=${Date.now()}`;
 }
